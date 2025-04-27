@@ -1,1 +1,0 @@
-# shuk05.github.io

@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
 </head>
-<body class="homebody">
+<body class="contactbody">
     <header>
         <h1>SATO SEIJI</h1>
         <nav>
@@ -20,30 +20,35 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <div class="banner-image">
-            <img src="img/musiciansample.jpg" alt="Banner Image">
-        </div>
-        <div class="news">
-            <h2>News</h2>
-            <p>We are still preparing! Please wait a while for further information from Sato Seiji!</p>
-        </div>
-        <div class="music">
-            <h2>Music</h2>
-            <div class="video-placeholder">
-                <p>Coming Soon: My New Music Video</p>
-                <img src="img/videonotavailable.png" alt="Video Not Available" />
-                <p>Video will be available soon!</p>
-            </div>
+        <div class="form">
+            <form action="/" method="get">
+                <div class="box">
+                    <h1>Contact Us</h1>
+                </div>
+            
+                <div class="grid-container">
+                    <label for="name">Name</label>
+                    <input type="name" name="name" id="name">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                <label for="message">Message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                    <button type="submit">Submit</button>
+            </form>
         </div>
 
-        <div class="about">
-            <h2>About</h2>
+        <div class="info">
+            <h2>Info</h2>
+            <h3>Email Address</h3>
+            <p>We are still preparing! Please wait a while for further information from Sato Seiji!</p>
+            <h3>Office Address</h3>
             <p>We are still preparing! Please wait a while for further information from Sato Seiji!</p>
         </div>
     </main>
-
     <footer>
         <p class="copyright">&copy; 2025 Sato Seiji</p>
     </footer>
